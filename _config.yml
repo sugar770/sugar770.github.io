@@ -1,3 +1,25 @@
+# 网站基本信息
+title: "我的个人主页"  # 你的网站标题
+description: "这是我的GitHub个人主页"  # 网站描述
+url: "https://你的用户名.github.io"  # 你的网站地址
+
+# 使用Minimal主题（高级方法）
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme
+
+# 社交链接（可选）
+social_links:
+  github: 你的GitHub用户名
+  twitter: 你的Twitter用户名（可选）
+  linkedin: 你的LinkedIn用户名（可选）
+  email: 你的邮箱@example.com
+
+# 导航菜单（可选）
+navigation:
+  - name: 首页
+    link: /
+  - name: 关于
+    link: /about
+  - name: 项目
+    link: /projects
